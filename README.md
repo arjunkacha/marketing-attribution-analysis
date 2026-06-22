@@ -1,50 +1,91 @@
-# Marketing Attribution Analysis Dashboard
+# 📊 Marketing Attribution Analysis
 
-## Project Overview
-This project analyzes marketing campaign performance using different attribution models:
+## 🚀 Project Overview
 
-- First Touch Attribution
-- Last Touch Attribution
-- Linear Attribution
+This project focuses on analyzing customer journey data and marketing campaign performance using attribution modeling techniques.
 
-The project calculates:
+The objective is to understand how different marketing channels contribute to customer conversions by processing and analyzing marketing datasets using SQL and PostgreSQL.
 
-- Revenue Attribution
-- Total Conversions
-- ROAS (Return on Ad Spend)
-- CAC (Customer Acquisition Cost)
+---
 
-## Tools Used
+## 🛠️ Tools Used
 
-- PostgreSQL
-- SQL
-- Power BI
-- CSV Datasets
+* PostgreSQL
+* SQL
+* CSV Datasets
+* GitHub
 
-## Project Structure
+---
 
-data/ - Source datasets
+## 📁 Project Structure
 
-sql/ - SQL scripts for attribution analysis
+```text
+data/       - Source datasets
+sql/        - Attribution SQL queries
+```
 
-powerbi/ - Dashboard file
+---
 
-reports/ - Dashboard screenshots and reports
+## 📅 Week 1: Data Ingestion & Exploratory Data Analysis (EDA)
 
-## Attribution Models
+### Tasks Completed
 
-### First Touch
-Assigns full conversion credit to the first marketing channel.
+* Collected and imported marketing datasets.
+* Analyzed customer journey, conversion, and marketing spend data.
+* Performed data validation and quality checks.
+* Explored relationships between channels, conversions, and revenue.
+* Prepared datasets for database loading.
 
-### Last Touch
-Assigns full conversion credit to the last marketing channel.
+### Datasets Used
 
-### Linear
-Distributes conversion credit equally across all touchpoints.
+* conversions.csv
+* customer_journey.csv
+* marketing_spend.csv
 
-## Key Insights
+---
 
-- LinkedIn generated the highest revenue under First Touch.
-- TikTok performed strongly under Last Touch.
-- LinkedIn and TikTok achieved the highest ROAS.
-- Facebook recorded the highest CAC.
+## 📅 Week 2: Advanced SQL & Attribution Logic
+
+### Tasks Completed
+
+* Loaded cleaned datasets into PostgreSQL.
+* Created relational database tables.
+* Developed SQL queries for attribution analysis.
+* Implemented First Touch Attribution logic.
+* Implemented Linear Attribution logic.
+* Utilized SQL Window Functions for customer journey sequencing.
+
+### SQL Concepts Used
+
+* JOINs
+* Common Table Expressions (CTEs)
+* ROW_NUMBER()
+* PARTITION BY
+* ORDER BY
+* Aggregation Functions
+
+---
+
+## 🎯 Attribution Models Implemented
+
+### First Touch Attribution
+
+Assigns full conversion credit to the first marketing channel encountered by the customer.
+
+### Linear Attribution
+
+Distributes conversion credit equally across all customer touchpoints.
+
+---
+
+## ✅ Mid Review Progress Summary
+
+Successfully completed:
+
+* Dataset acquisition and exploration
+* Data preparation and validation
+* PostgreSQL database setup
+* Attribution model implementation using SQL
+* Customer journey analysis using window functions
+
+The project is progressing according to the internship timeline and is ready for the next development phase.
